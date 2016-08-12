@@ -1,7 +1,6 @@
 {
   "name": "ActualitéBlock",
   "description": "block limitation view of lexpress",
-  "description": "Make the current page red",
   "version": "2.0",
   "permissions": [
     "activeTab"
@@ -10,6 +9,10 @@
     {
       "matches": ["http://lexpansion.lexpress.fr/*"],
       "js": ["lexpress.js"]
+    },
+    {
+      "matches": ["http://*.leparisien.fr/*"],
+      "js": ["leparisien.js"]
     }
   ],
   "browser_action": {

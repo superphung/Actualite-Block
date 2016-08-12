@@ -1,10 +1,11 @@
 
 function remove() {
-  var element = document.getElementById("cboxOverlay");
-  element.outerHTML = "";
-
-  element = document.getElementById("colorbox");
-  element.outerHTML = "";
+  ["cboxOverlay", "colorbox"].forEach(function (e) {
+    var node = document.getElementById(e);
+    if (node) {
+      node.outerHTML = "";
+    }
+  });
 }
 
-setInterval(remove,1000);
+setInterval(remove, 1000);
