@@ -1,0 +1,20 @@
+{
+  "name": "ActualitéBlock",
+  "description": "block limitation view of lexpress",
+  "description": "Make the current page red",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://lexpansion.lexpress.fr/*"],
+      "js": ["lexpress.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "news.png",
+    "default_title": "ActualitéBlock"
+  },
+  "manifest_version": 2
+}
