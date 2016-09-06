@@ -13,6 +13,10 @@
     {
       "matches": ["http://*.leparisien.fr/*"],
       "js": ["leparisien.js"]
+    },
+    {
+      "matches": ["http://*.lefigaro.fr/*"],
+      "js": ["lefigaro.js"]
     }
   ],
   "browser_action": {
