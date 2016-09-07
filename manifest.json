@@ -17,6 +17,10 @@
     {
       "matches": ["http://*.lefigaro.fr/*"],
       "js": ["lefigaro.js"]
+    },
+    {
+      "matches": ["http://*.lequipe.fr/*"],
+      "js": ["lequipe.js"]
     }
   ],
   "browser_action": {
