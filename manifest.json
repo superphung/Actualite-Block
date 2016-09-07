@@ -21,6 +21,10 @@
     {
       "matches": ["http://*.lequipe.fr/*"],
       "js": ["lequipe.js"]
+    },
+    {
+      "matches": ["http://*.europe1.fr/*"],
+      "js": ["europe.js"]
     }
   ],
   "browser_action": {
