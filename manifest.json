@@ -25,6 +25,10 @@
     {
       "matches": ["http://*.europe1.fr/*"],
       "js": ["europe.js"]
+    },
+    {
+      "matches": ["http://*.parismatch.com/*"],
+      "js": ["europe.js"]
     }
   ],
   "browser_action": {
